@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Interactive rating component</title>
+</head>
+
+<body>
+
+  <div>
+    <section class="rating-card">
+      <img alt="star icon" class="star-icon">
+      <h1 class="main-question">How did we do?</h1>
+      <p class="text">
+        Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+        offering!
+      </p>
+      <ul class="rating">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ul>
+      <button class="submit-btn">Submit</button>
+    </section>
+  </div>
+
+  <div class="hide">
+    <section class="thank-card">
+      <img src="./src/images/illustration-thank-you.svg" alt="thank you image" class="thank-img">
+      <p class="selected-rating"></p>
+      <h1 class="thankyou">Thank you!</h1>
+      <p class="thank-mesage">
+        We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
+        touch!
+      </p>
+    </section>
+  </div>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>

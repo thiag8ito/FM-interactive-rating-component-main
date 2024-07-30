@@ -1,0 +1,134 @@
+html {
+    font-family: "Overpass", sans-serif;
+    font-size: 62.5%;
+    font-weight: 400;
+}
+
+body {
+    background-color: #121417;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #959eac;
+}
+
+.rating-card {
+    background-color: #1b2129;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 20px;
+    width: 330px;
+    height: 330px;
+    padding: 25px;
+}
+
+.rating-card .star-icon {
+    background: url(../images/icon-star.svg) no-repeat center;
+    background-color: #252d37;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.rating-card .main-question {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.rating-card .text {
+    font-size: 1.1rem;
+    line-height: 18px;
+}
+
+.rating-card .rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-card .rating li {
+    background-color: #252d37;
+    font-weight: 700;
+    border-radius: 50%;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    transition: ease .5s;
+}
+
+.rating-card .rating li.selected {
+    background-color: #fff;
+    color: #121417;
+}
+
+.rating-card .rating li:hover {
+    cursor: pointer;
+    background-color: #ff7300;
+    color: #121417;
+}
+.rating-card .submit-btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #121417;
+}
+
+.rating-card .submit-btn {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff7300;
+    padding: 10px;
+    transition: ease .5s;
+}
+
+.hide {
+    display: none;
+}
+
+/* THANK CARD */
+
+.thank-card {
+    background-color: #1b2129;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 20px;
+    width: 330px;
+    height: 330px;
+    padding: 25px 15px;
+}
+
+.thank-card .thank-img {
+    width: 120px;
+}
+
+.thank-card .selected-rating {
+    background-color: #252d37;
+    color: #bd5500;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.thank-card .thankyou {
+    color: #fff;
+    font-weight: 400;
+}
+
+.thank-card .thank-mesage {
+    text-align: center;
+    width: 230px;
+    font-size: 1.1rem;
+    line-height: 18px;
+}
